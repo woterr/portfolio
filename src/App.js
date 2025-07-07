@@ -4,6 +4,7 @@ import Header from "./Components/header"
 import BlogView from './Components/blogview';
 import Home from './Home';
 import Contact from './Contact';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogView />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
     </>

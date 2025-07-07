@@ -24,7 +24,7 @@ function App() {
                         <a href="/blog" className="nav_link">Blog</a>
                     </li>
                     <li>
-                        <a href="/artwork" className="nav_link">Artwork</a>
+                        <a href="/projects" className="nav_link">Projects</a>
                     </li>
                     <li>
                         <a href="/contact" className="nav_link">Contact</a>
