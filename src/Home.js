@@ -56,7 +56,7 @@ function Home() {
         <section className="artwork section">
           <div className="projectscontainer container">
             <h1 className="section_title">Recent Projects</h1>
-            <a href='https://github.com/woterr/'>Github</a>
+            <a href='https://github.com/woterr/' className='button_secondary'>Github</a>
           </div>
         </section>
       </main>
