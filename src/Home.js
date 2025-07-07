@@ -40,7 +40,7 @@ function Home() {
             <div className="lander">
               <h1 className="section_title">Where Creativity -<br/>Meets <span className="code">Technology</span></h1>
               <div className="cta">
-                <a className="button" href="/posts">View Artwork</a>
+                <a className="button" href="/posts">View Projects</a>
                 <a className="button_secondary" href="/contact">Contact Me</a>
               </div>
             </div>
@@ -54,8 +54,9 @@ function Home() {
           </div>
         </section>
         <section className="artwork section">
-          <div className="artwork_container container">
-            <h1 className="section_title">Recent artwork</h1>
+          <div className="projectscontainer container">
+            <h1 className="section_title">Recent Projects</h1>
+            <a href='https://github.com/woterr/'>Github</a>
           </div>
         </section>
       </main>
